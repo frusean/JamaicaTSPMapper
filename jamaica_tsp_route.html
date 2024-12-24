@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3c2796f5f08ac54577104096f2cbb14 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e3c2796f5f08ac54577104096f2cbb14" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e3c2796f5f08ac54577104096f2cbb14 = L.map(
+                "map_e3c2796f5f08ac54577104096f2cbb14",
+                {
+                    center: [18.1096, -77.2975],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e09704abb02d499d4c48d6df438952e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6e09704abb02d499d4c48d6df438952e.addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var marker_d082ff86271353888d92a880228620d9 = L.marker(
+                [18.417, -78.133],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_3deb2d45062a1619d98e2fa830e2697a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d082ff86271353888d92a880228620d9.setIcon(icon_3deb2d45062a1619d98e2fa830e2697a);
+        
+    
+        var popup_260302e1b7d0f1877e8805d2d0854a8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3b143d5d803aa5a08385ab209a0fce3 = $(`<div id="html_e3b143d5d803aa5a08385ab209a0fce3" style="width: 100.0%; height: 100.0%;">Hanover</div>`)[0];
+                popup_260302e1b7d0f1877e8805d2d0854a8b.setContent(html_e3b143d5d803aa5a08385ab209a0fce3);
+            
+        
+
+        marker_d082ff86271353888d92a880228620d9.bindPopup(popup_260302e1b7d0f1877e8805d2d0854a8b)
+        ;
+
+        
+    
+    
+            var marker_4accb44ad0ceb1140f01382c3b18d592 = L.marker(
+                [18.242, -78.01],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_79f8342cc816ecd6e910b563bd1e0cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4accb44ad0ceb1140f01382c3b18d592.setIcon(icon_79f8342cc816ecd6e910b563bd1e0cb7);
+        
+    
+        var popup_8ebec6067999d0a53df67a7d247d220a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_567a27653899553e99c6896e126e05b2 = $(`<div id="html_567a27653899553e99c6896e126e05b2" style="width: 100.0%; height: 100.0%;">Westmoreland</div>`)[0];
+                popup_8ebec6067999d0a53df67a7d247d220a.setContent(html_567a27653899553e99c6896e126e05b2);
+            
+        
+
+        marker_4accb44ad0ceb1140f01382c3b18d592.bindPopup(popup_8ebec6067999d0a53df67a7d247d220a)
+        ;
+
+        
+    
+    
+            var marker_f9990da337c127cf231b2a8c1bb11c03 = L.marker(
+                [18.471, -77.92],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_0ce312e6ea2696a943992019aed43ef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9990da337c127cf231b2a8c1bb11c03.setIcon(icon_0ce312e6ea2696a943992019aed43ef1);
+        
+    
+        var popup_d1d9bc5cb6a029b99baa0f279dffe834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f342515bc4517c11c7c9c2ebb1c36cba = $(`<div id="html_f342515bc4517c11c7c9c2ebb1c36cba" style="width: 100.0%; height: 100.0%;">St. James</div>`)[0];
+                popup_d1d9bc5cb6a029b99baa0f279dffe834.setContent(html_f342515bc4517c11c7c9c2ebb1c36cba);
+            
+        
+
+        marker_f9990da337c127cf231b2a8c1bb11c03.bindPopup(popup_d1d9bc5cb6a029b99baa0f279dffe834)
+        ;
+
+        
+    
+    
+            var marker_3d2212ad9739009acf72db2795be3a72 = L.marker(
+                [18.038, -77.737],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_52676111aa92e26e4d4ae570b2718fe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d2212ad9739009acf72db2795be3a72.setIcon(icon_52676111aa92e26e4d4ae570b2718fe5);
+        
+    
+        var popup_df99c2355ea7db61c66a2503015989d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b701bd874b474ac7d3dc7245599ab74a = $(`<div id="html_b701bd874b474ac7d3dc7245599ab74a" style="width: 100.0%; height: 100.0%;">St. Elizabeth</div>`)[0];
+                popup_df99c2355ea7db61c66a2503015989d0.setContent(html_b701bd874b474ac7d3dc7245599ab74a);
+            
+        
+
+        marker_3d2212ad9739009acf72db2795be3a72.bindPopup(popup_df99c2355ea7db61c66a2503015989d0)
+        ;
+
+        
+    
+    
+            var marker_41ec36fe28f32aa4680656031c416c90 = L.marker(
+                [18.042, -77.508],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_aaed7926f9199753404ac63b11354e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41ec36fe28f32aa4680656031c416c90.setIcon(icon_aaed7926f9199753404ac63b11354e9b);
+        
+    
+        var popup_89eb801825287ee7d212d53515597170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa3c14b271385c7584a63e248921d4b0 = $(`<div id="html_fa3c14b271385c7584a63e248921d4b0" style="width: 100.0%; height: 100.0%;">Manchester</div>`)[0];
+                popup_89eb801825287ee7d212d53515597170.setContent(html_fa3c14b271385c7584a63e248921d4b0);
+            
+        
+
+        marker_41ec36fe28f32aa4680656031c416c90.bindPopup(popup_89eb801825287ee7d212d53515597170)
+        ;
+
+        
+    
+    
+            var marker_d8d9da7cd2fa80c7497ef9c8bc1180ab = L.marker(
+                [18.282, -77.657],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_be8c949a2e9a0c97e915b62db6e0723e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d8d9da7cd2fa80c7497ef9c8bc1180ab.setIcon(icon_be8c949a2e9a0c97e915b62db6e0723e);
+        
+    
+        var popup_a876f72130905547f67607d42fffafb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de3818de46ccc828b572c60b12187bef = $(`<div id="html_de3818de46ccc828b572c60b12187bef" style="width: 100.0%; height: 100.0%;">Trelawny</div>`)[0];
+                popup_a876f72130905547f67607d42fffafb4.setContent(html_de3818de46ccc828b572c60b12187bef);
+            
+        
+
+        marker_d8d9da7cd2fa80c7497ef9c8bc1180ab.bindPopup(popup_a876f72130905547f67607d42fffafb4)
+        ;
+
+        
+    
+    
+            var marker_58d12c6f91c18773feff3b4fa02d8031 = L.marker(
+                [17.964, -77.245],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_0b934a808d80fb10193b405534da9378 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58d12c6f91c18773feff3b4fa02d8031.setIcon(icon_0b934a808d80fb10193b405534da9378);
+        
+    
+        var popup_005c66b9250a470b6b2768d2339499c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4345f0a2738ee7d219cfe41f93d98679 = $(`<div id="html_4345f0a2738ee7d219cfe41f93d98679" style="width: 100.0%; height: 100.0%;">Clarendon</div>`)[0];
+                popup_005c66b9250a470b6b2768d2339499c4.setContent(html_4345f0a2738ee7d219cfe41f93d98679);
+            
+        
+
+        marker_58d12c6f91c18773feff3b4fa02d8031.bindPopup(popup_005c66b9250a470b6b2768d2339499c4)
+        ;
+
+        
+    
+    
+            var marker_cf029c569b530519fac68eab61f43b06 = L.marker(
+                [18.429, -77.2],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_b760571566d47e16e7ad52dbc7ca85f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf029c569b530519fac68eab61f43b06.setIcon(icon_b760571566d47e16e7ad52dbc7ca85f4);
+        
+    
+        var popup_4de71161a9943cd3933e2cd63f5461e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24ba3eec6f7865db7008142c613cd2df = $(`<div id="html_24ba3eec6f7865db7008142c613cd2df" style="width: 100.0%; height: 100.0%;">St Ann</div>`)[0];
+                popup_4de71161a9943cd3933e2cd63f5461e9.setContent(html_24ba3eec6f7865db7008142c613cd2df);
+            
+        
+
+        marker_cf029c569b530519fac68eab61f43b06.bindPopup(popup_4de71161a9943cd3933e2cd63f5461e9)
+        ;
+
+        
+    
+    
+            var marker_3455f44f1de396f4ea2e106019036c37 = L.marker(
+                [18.012, -76.949],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_36d7efeb6daefeebeb587f9a002688e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3455f44f1de396f4ea2e106019036c37.setIcon(icon_36d7efeb6daefeebeb587f9a002688e7);
+        
+    
+        var popup_c26205cee0e4fe4f7f19d94b4c85de10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fae2f0bfe8e17f7ce1f39d3be273a9b5 = $(`<div id="html_fae2f0bfe8e17f7ce1f39d3be273a9b5" style="width: 100.0%; height: 100.0%;">St Catherine</div>`)[0];
+                popup_c26205cee0e4fe4f7f19d94b4c85de10.setContent(html_fae2f0bfe8e17f7ce1f39d3be273a9b5);
+            
+        
+
+        marker_3455f44f1de396f4ea2e106019036c37.bindPopup(popup_c26205cee0e4fe4f7f19d94b4c85de10)
+        ;
+
+        
+    
+    
+            var marker_4222dee106b40f613fd63853d5246d8a = L.marker(
+                [18.267, -76.896],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_e2ed5d430bc7dfff2baf16dd21cbd9b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4222dee106b40f613fd63853d5246d8a.setIcon(icon_e2ed5d430bc7dfff2baf16dd21cbd9b4);
+        
+    
+        var popup_4988500df97dbb9100fed17fa2cad100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f35ea17c4fed92040e6a0ab03f9b62de = $(`<div id="html_f35ea17c4fed92040e6a0ab03f9b62de" style="width: 100.0%; height: 100.0%;">St Mary</div>`)[0];
+                popup_4988500df97dbb9100fed17fa2cad100.setContent(html_f35ea17c4fed92040e6a0ab03f9b62de);
+            
+        
+
+        marker_4222dee106b40f613fd63853d5246d8a.bindPopup(popup_4988500df97dbb9100fed17fa2cad100)
+        ;
+
+        
+    
+    
+            var marker_1eb6b208fdb99d8a418a0166f483c4d9 = L.marker(
+                [18.002, -76.791],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_28f60feb24c194f6a83a238651993dcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1eb6b208fdb99d8a418a0166f483c4d9.setIcon(icon_28f60feb24c194f6a83a238651993dcd);
+        
+    
+        var popup_13134b47dfce9ef7cb2ae26ca1cfbf21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f236b1a6746afbe9321d002bb34c02e = $(`<div id="html_3f236b1a6746afbe9321d002bb34c02e" style="width: 100.0%; height: 100.0%;">St Andrew</div>`)[0];
+                popup_13134b47dfce9ef7cb2ae26ca1cfbf21.setContent(html_3f236b1a6746afbe9321d002bb34c02e);
+            
+        
+
+        marker_1eb6b208fdb99d8a418a0166f483c4d9.bindPopup(popup_13134b47dfce9ef7cb2ae26ca1cfbf21)
+        ;
+
+        
+    
+    
+            var marker_7678b6ecd67611459b28d82870e965a8 = L.marker(
+                [17.97, -76.788],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_0a428d27670d13e6a4b7e32edab4e640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7678b6ecd67611459b28d82870e965a8.setIcon(icon_0a428d27670d13e6a4b7e32edab4e640);
+        
+    
+        var popup_ef9e60f91a8da4f561d6f60bad5a5584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f9af9bf6329b5c0ede6d6d8414fb6ed = $(`<div id="html_7f9af9bf6329b5c0ede6d6d8414fb6ed" style="width: 100.0%; height: 100.0%;">Kingston</div>`)[0];
+                popup_ef9e60f91a8da4f561d6f60bad5a5584.setContent(html_7f9af9bf6329b5c0ede6d6d8414fb6ed);
+            
+        
+
+        marker_7678b6ecd67611459b28d82870e965a8.bindPopup(popup_ef9e60f91a8da4f561d6f60bad5a5584)
+        ;
+
+        
+    
+    
+            var marker_9a9fd9d75d0c0d2ce971a4efe9a22a13 = L.marker(
+                [18.176, -76.398],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_04197e17e1a0436f359b3e4fca4b6f9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a9fd9d75d0c0d2ce971a4efe9a22a13.setIcon(icon_04197e17e1a0436f359b3e4fca4b6f9b);
+        
+    
+        var popup_6a05884e0989f9caf3644949dcac0e01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_162349e416c0514a1b97757b538c057d = $(`<div id="html_162349e416c0514a1b97757b538c057d" style="width: 100.0%; height: 100.0%;">Portland</div>`)[0];
+                popup_6a05884e0989f9caf3644949dcac0e01.setContent(html_162349e416c0514a1b97757b538c057d);
+            
+        
+
+        marker_9a9fd9d75d0c0d2ce971a4efe9a22a13.bindPopup(popup_6a05884e0989f9caf3644949dcac0e01)
+        ;
+
+        
+    
+    
+            var marker_d7b514a3d6def044d0846c1d6d963ea6 = L.marker(
+                [17.941, -76.339],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_e81cb284880d173b2b527c89bbad4028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7b514a3d6def044d0846c1d6d963ea6.setIcon(icon_e81cb284880d173b2b527c89bbad4028);
+        
+    
+        var popup_20673c767de3dc0245fe33d07f48a540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c7cea9685539bd854455cc051c3921b = $(`<div id="html_9c7cea9685539bd854455cc051c3921b" style="width: 100.0%; height: 100.0%;">St Thomas</div>`)[0];
+                popup_20673c767de3dc0245fe33d07f48a540.setContent(html_9c7cea9685539bd854455cc051c3921b);
+            
+        
+
+        marker_d7b514a3d6def044d0846c1d6d963ea6.bindPopup(popup_20673c767de3dc0245fe33d07f48a540)
+        ;
+
+        
+    
+    
+            var poly_line_07f94f02dd2df5f599baa57937de1472 = L.polyline(
+                [[18.417, -78.133], [18.242, -78.01], [18.471, -77.92], [18.282, -77.657], [18.042, -77.508], [18.038, -77.737], [17.964, -77.245], [18.417, -78.133]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var marker_15a565cfa5ea85f9480b4422940ef146 = L.marker(
+                [18.417, -78.133],
+                {}
+            ).addTo(map_e3c2796f5f08ac54577104096f2cbb14);
+        
+    
+            var icon_d34716825999b50d27a26917956b2ef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15a565cfa5ea85f9480b4422940ef146.setIcon(icon_d34716825999b50d27a26917956b2ef9);
+        
+    
+        var popup_0af7eb374d294592a73d1cb39375ab0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_328937a8fa852417dc26b5bd982b8661 = $(`<div id="html_328937a8fa852417dc26b5bd982b8661" style="width: 100.0%; height: 100.0%;">Start/End (Hanover)</div>`)[0];
+                popup_0af7eb374d294592a73d1cb39375ab0a.setContent(html_328937a8fa852417dc26b5bd982b8661);
+            
+        
+
+        marker_15a565cfa5ea85f9480b4422940ef146.bindPopup(popup_0af7eb374d294592a73d1cb39375ab0a)
+        ;
+
+        
+    
+</script>
+</html>
